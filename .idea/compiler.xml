@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rampage-data-kafka-producer" />
+        <module name="thoth-clazz-entity" />
+        <module name="thoth-clazz-service" />
+        <module name="thoth-clazz-web" />
+        <module name="thoth-common" />
+        <module name="thoth-config-server" />
+        <module name="thoth-data-es" />
+        <module name="thoth-data-kafka-consumer" />
+        <module name="thoth-data-kafka-producer" />
+        <module name="thoth-dependencies" />
+        <module name="thoth-fastdfs" />
+        <module name="thoth-registry-server" />
+        <module name="thoth-robot-common" />
+        <module name="thoth-robot-entity" />
+        <module name="thoth-robot-service" />
+        <module name="thoth-robot-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rampage-data-kafka-producer" target="1.8" />
+      <module name="thoth" target="1.7" />
+      <module name="thoth-class-ms" target="1.8" />
+      <module name="thoth-clazz-entity" target="1.8" />
+      <module name="thoth-clazz-service" target="1.8" />
+      <module name="thoth-clazz-web" target="1.8" />
+      <module name="thoth-common" target="1.8" />
+      <module name="thoth-config-server" target="1.8" />
+      <module name="thoth-data-es" target="1.8" />
+      <module name="thoth-data-kafka" target="1.8" />
+      <module name="thoth-data-kafka-consumer" target="1.8" />
+      <module name="thoth-data-kafka-producer" target="1.8" />
+      <module name="thoth-dependencies" target="1.8" />
+      <module name="thoth-fastdfs" target="1.8" />
+      <module name="thoth-parent" target="1.8" />
+      <module name="thoth-registry-server" target="1.8" />
+      <module name="thoth-robot-common" target="1.8" />
+      <module name="thoth-robot-entity" target="1.8" />
+      <module name="thoth-robot-ms" target="1.8" />
+      <module name="thoth-robot-service" target="1.8" />
+      <module name="thoth-robot-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

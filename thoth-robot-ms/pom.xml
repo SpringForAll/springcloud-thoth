@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>thoth-parent</artifactId>
+        <groupId>com.changyou</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>thoth-robot-ms</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>thoth-robot-ms</name>
+    <description>thoth-robot</description>
+    <!--<url>http://10.127.138.36/robot/thoth-robot</url>-->
+
+    <!--<scm>-->
+        <!--<connection>scm:git:http://10.127.138.36/robot/thoth-robot.git</connection>-->
+        <!--<url>http://10.127.138.36/robot/thoth-robot</url>-->
+        <!--<developerConnection>scm:git:http://10.127.138.36/robot/thoth-robot.git-->
+        <!--</developerConnection>-->
+    <!--</scm>-->
+
+    <modules>
+        <module>thoth-robot-entity</module>
+        <module>thoth-robot-service</module>
+        <module>thoth-robot-common</module>
+        <module>thoth-robot-web</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.changyou</groupId>
+            <artifactId>thoth-dependencies</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+    </dependencies>
+    <developers>
+        <developer>
+            <name>sunliangliang</name>
+            <email>sunliangliang@cyou-inc.com</email>
+            <organization>changyou</organization>
+        </developer>
+    </developers>
+
+</project>
