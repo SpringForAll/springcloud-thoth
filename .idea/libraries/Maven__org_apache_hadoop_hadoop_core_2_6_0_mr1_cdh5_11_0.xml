@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.hadoop:hadoop-core:2.6.0-mr1-cdh5.11.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.11.0/hadoop-core-2.6.0-mr1-cdh5.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.11.0/hadoop-core-2.6.0-mr1-cdh5.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.11.0/hadoop-core-2.6.0-mr1-cdh5.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -7,13 +7,15 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.Serializable;
+
 /**
  * 统一返回结果RestResult.
  * <p>
  * Created by wujun on 2017/02/16.
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class RestResult {
+public class RestResult<T extends Object> implements Serializable{
 
     protected static final Logger LOGGER = LoggerFactory.getLogger(RestResult.class);
 
@@ -33,7 +35,7 @@ public class RestResult {
      * 返回数据
      */
     @JSONField(ordinal = 3)
-    private Object data;
+    private T data;
 
     public RestResult() {
 
@@ -44,7 +46,7 @@ public class RestResult {
         this.message = message;
     }
 
-    public RestResult(int code, String message, Object data) {
+    public RestResult(int code, String message, T data) {
         this.code = code;
         this.message = message;
         this.data = data;
@@ -66,11 +68,11 @@ public class RestResult {
         this.message = message;
     }
 
-    public Object getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(Object data) {
+    public void setData(T data) {
         this.data = data;
     }
 

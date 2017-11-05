@@ -8,10 +8,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
 		<module>thoth-parent</module>
+		<module>thoth-common</module>
+		<module>thoth-dependencies</module>
+		<module>thoth-data-es</module>
+		<module>thoth-data-hbase</module>
+		<module>thoth-data-kafka</module>
+		<module>thoth-fastdfs</module>
 	</modules>
 	<packaging>pom</packaging>
 
 	<name>thoth</name>
-	<description>changyou robot</description>
+	<description>Prometheus</description>
 
 </project>

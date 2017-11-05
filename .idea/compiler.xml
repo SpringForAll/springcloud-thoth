@@ -13,6 +13,7 @@
         <module name="thoth-common" />
         <module name="thoth-config-server" />
         <module name="thoth-data-es" />
+        <module name="thoth-data-hbase" />
         <module name="thoth-data-kafka-consumer" />
         <module name="thoth-data-kafka-producer" />
         <module name="thoth-dependencies" />
@@ -34,6 +35,7 @@
       <module name="thoth-common" target="1.8" />
       <module name="thoth-config-server" target="1.8" />
       <module name="thoth-data-es" target="1.8" />
+      <module name="thoth-data-hbase" target="1.8" />
       <module name="thoth-data-kafka" target="1.8" />
       <module name="thoth-data-kafka-consumer" target="1.8" />
       <module name="thoth-data-kafka-producer" target="1.8" />

@@ -9,13 +9,13 @@ import com.changyou.thoth.common.exception.GlobalErrorCode;
  * <p>
  * Created by wujun on 2017/02/16.
  */
-public class RestResultBuilder {
+public class RestResultBuilder<T> {
 
     protected int code;
 
     protected String message;
 
-    protected Object data;
+    protected T data;
 
     public static RestResultBuilder builder() {
         RestResultBuilder restResultBuilder = new RestResultBuilder();
@@ -32,7 +32,7 @@ public class RestResultBuilder {
         return this;
     }
 
-    public RestResultBuilder data(Object data) {
+    public RestResultBuilder data(T data) {
         this.data = data;
         return this;
     }
@@ -49,7 +49,7 @@ public class RestResultBuilder {
         return this;
     }
 
-    public RestResultBuilder success(Object data) {
+    public RestResultBuilder success(T data) {
         this.code = GlobalErrorCode.SUCCESS.getCode();
         this.message = GlobalErrorCode.SUCCESS.getMessage();
         this.data = data;
@@ -62,7 +62,7 @@ public class RestResultBuilder {
         return this;
     }
 
-    public RestResultBuilder failure(Object data) {
+    public RestResultBuilder failure(T data) {
         this.code = GlobalErrorCode.FAILURE.getCode();
         this.message = GlobalErrorCode.FAILURE.getMessage();
         this.data = data;
@@ -86,8 +86,8 @@ public class RestResultBuilder {
         return this;
     }
 
-    public RestResult build() {
-        return new RestResult(this.code, this.message, this.data);
+    public RestResult<T> build() {
+        return new RestResult<T>(this.code, this.message, this.data);
     }
 
     public RestResult build(RestResult restResult) {

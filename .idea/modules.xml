@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-common/thoth-common.iml" filepath="$PROJECT_DIR$/thoth/thoth-common/thoth-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-config-server/thoth-config-server.iml" filepath="$PROJECT_DIR$/thoth-config-server/thoth-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-es/thoth-data-es.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-es/thoth-data-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-hbase/thoth-data-hbase.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-hbase/thoth-data-hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-consumer/thoth-data-kafka-consumer.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-consumer/thoth-data-kafka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/thoth-data-kafka-producer.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/thoth-data-kafka-producer.iml" />

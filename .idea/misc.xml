@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/thoth/thoth-data-es/pom.xml" />
         <option value="$PROJECT_DIR$/thoth/thoth-data-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/thoth/thoth-data-hbase/pom.xml" />
       </list>
     </option>
   </component>
