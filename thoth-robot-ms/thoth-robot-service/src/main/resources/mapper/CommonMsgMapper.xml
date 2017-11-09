@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.changyou.thoth.robot.dao.CommonMsgMapper">
+<mapper namespace="com.prometheus.thoth.robot.dao.CommonMsgMapper">
 
-	<resultMap id="BaseResultMap" type="com.changyou.thoth.robot.entity.CommonMsg">
+	<resultMap id="BaseResultMap" type="com.prometheus.thoth.robot.entity.CommonMsg">
 		<id property="id" column="id" jdbcType="BIGINT"/>
 		<result property="robotId" column="robotId" jdbcType="INTEGER"/>
 		<result property="message" column="message" jdbcType="VARCHAR"/>
@@ -74,7 +74,7 @@
 		order by gmtModified desc
 	</select>
 
-	<update id="update" parameterType="com.changyou.thoth.robot.entity.CommonMsg">
+	<update id="update" parameterType="com.prometheus.thoth.robot.entity.CommonMsg">
 		update tbl_common_msg
 		<set>
 			<if test="robotId != null">
@@ -98,7 +98,7 @@
 	</update>
 
 
-	<insert id="insert"  useGeneratedKeys="true" keyProperty="id" parameterType="com.changyou.thoth.robot.entity.CommonMsg">
+	<insert id="insert"  useGeneratedKeys="true" keyProperty="id" parameterType="com.prometheus.thoth.robot.entity.CommonMsg">
 		insert into tbl_common_msg(
 				id,
 				robotId,
@@ -117,7 +117,7 @@
 	</insert>
 
 	<insert id="insertSelective" useGeneratedKeys="true" keyProperty="id"
-			parameterType="com.changyou.thoth.robot.entity.CommonMsg">
+			parameterType="com.prometheus.thoth.robot.entity.CommonMsg">
 		insert into tbl_common_msg
 		<trim prefix="(" suffix=")" suffixOverrides=",">
 			<if test="id != null">

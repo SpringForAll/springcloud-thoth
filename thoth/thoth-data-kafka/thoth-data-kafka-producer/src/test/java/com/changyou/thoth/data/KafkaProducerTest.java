@@ -1,6 +1,6 @@
-package com.changyou.thoth.data;
+package com.prometheus.thoth.data;
 
-import com.changyou.thoth.data.kafka.producer.KafkaProducer;
+import com.prometheus.thoth.data.kafka.producer.KafkaProducer;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

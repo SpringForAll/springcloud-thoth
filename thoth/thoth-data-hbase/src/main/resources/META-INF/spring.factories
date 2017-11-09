@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.changyou.thoth.data.hbase.config.HbaseAutoConfiguration
+com.prometheus.thoth.data.hbase.config.HbaseAutoConfiguration

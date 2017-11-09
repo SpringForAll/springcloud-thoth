@@ -1,9 +1,9 @@
-//package com.changyou.thoth.kafka.service;
+//package com.prometheus.thoth.kafka.service;
 //
 //import com.alibaba.fastjson.JSON;
-//import com.changyou.thoth.common.service.LoggerService;
-//import com.changyou.thoth.common.util.Constants;
-//import com.changyou.thoth.data.kafka.producer.KafkaProducer;
+//import com.prometheus.thoth.common.service.LoggerService;
+//import com.prometheus.thoth.common.util.Constants;
+//import com.prometheus.thoth.data.kafka.producer.KafkaProducer;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Service;
 //

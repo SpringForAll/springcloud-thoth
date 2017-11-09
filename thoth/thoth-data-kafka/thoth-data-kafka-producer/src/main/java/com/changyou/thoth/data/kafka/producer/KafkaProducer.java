@@ -1,4 +1,4 @@
-package com.changyou.thoth.data.kafka.producer;
+package com.prometheus.thoth.data.kafka.producer;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;

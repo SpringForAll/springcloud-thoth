@@ -8,7 +8,7 @@
         <target>System.out</target>
     </appender>
 
-    <logger name="com.changyou.thoth" level="debug" additivity="true"/>
+    <logger name="com.prometheus.thoth" level="debug" additivity="true"/>
 
     <root level="error">
         <appender-ref ref="Console"/>

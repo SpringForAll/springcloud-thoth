@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.changyou.thoth.robot.dao.RobotLibMapper">
+<mapper namespace="com.prometheus.thoth.robot.dao.RobotLibMapper">
 
-	<resultMap id="BaseResultMap" type="com.changyou.thoth.robot.entity.RobotLib">
+	<resultMap id="BaseResultMap" type="com.prometheus.thoth.robot.entity.RobotLib">
 			<id property="id" column="id" jdbcType="BIGINT"/>
 			<result property="robotId" column="robotId" jdbcType="BIGINT"/>
 			<result property="libId" column="libId" jdbcType="BIGINT"/>
@@ -55,7 +55,7 @@
 	</select>
 
 
-	<update id="update" parameterType="com.changyou.thoth.robot.entity.RobotLib">
+	<update id="update" parameterType="com.prometheus.thoth.robot.entity.RobotLib">
 		update tbl_robot_lib
 		<set>
 			<if test="robotId != null">
@@ -70,7 +70,7 @@
 	</update>
 
 
-	<insert id="insert"  useGeneratedKeys="true" keyProperty="id" parameterType="com.changyou.thoth.robot.entity.RobotLib">
+	<insert id="insert"  useGeneratedKeys="true" keyProperty="id" parameterType="com.prometheus.thoth.robot.entity.RobotLib">
 		insert into tbl_robot_lib(
 				id,
 				robotId,

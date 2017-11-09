@@ -10,7 +10,7 @@
 
     <Loggers>
 
-        <Logger name="com.changyou.thoth" level="debug" additivity="false">
+        <Logger name="com.prometheus.thoth" level="debug" additivity="false">
             <AppenderRef ref="Console"/>
         </Logger>
 

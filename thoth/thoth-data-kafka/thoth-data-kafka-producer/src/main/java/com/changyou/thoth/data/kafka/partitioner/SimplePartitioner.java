@@ -1,4 +1,4 @@
-package com.changyou.thoth.data.kafka.partitioner;
+package com.prometheus.thoth.data.kafka.partitioner;
 
 import com.sun.org.apache.bcel.internal.generic.LDIV;
 import org.apache.kafka.clients.producer.Partitioner;

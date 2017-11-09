@@ -1,9 +1,9 @@
-package com.changyou.thoth.data.kafka.config;
+package com.prometheus.thoth.data.kafka.config;
 
 import com.alibaba.fastjson.JSON;
-import com.changyou.thoth.common.util.StringUtils;
-import com.changyou.thoth.data.kafka.partitioner.SimplePartitioner;
-import com.changyou.thoth.data.kafka.producer.KafkaProducer;
+import com.prometheus.thoth.common.util.StringUtils;
+import com.prometheus.thoth.data.kafka.partitioner.SimplePartitioner;
+import com.prometheus.thoth.data.kafka.producer.KafkaProducer;
 import com.google.common.collect.Maps;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;

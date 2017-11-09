@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.changyou.thoth.data.kafka.config.KafkaConsumerAutoConfiguration
+com.prometheus.thoth.data.kafka.config.KafkaConsumerAutoConfiguration

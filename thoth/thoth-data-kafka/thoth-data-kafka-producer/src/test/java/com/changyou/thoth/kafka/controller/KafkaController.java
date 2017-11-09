@@ -1,9 +1,9 @@
-package com.changyou.thoth.kafka.controller;
+package com.prometheus.thoth.kafka.controller;
 
-import com.changyou.thoth.common.model.RestResult;
-import com.changyou.thoth.common.model.RestResultBuilder;
-import com.changyou.thoth.common.web.controller.BaseController;
-import com.changyou.thoth.data.kafka.producer.KafkaProducer;
+import com.prometheus.thoth.common.model.RestResult;
+import com.prometheus.thoth.common.model.RestResultBuilder;
+import com.prometheus.thoth.common.web.controller.BaseController;
+import com.prometheus.thoth.data.kafka.producer.KafkaProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

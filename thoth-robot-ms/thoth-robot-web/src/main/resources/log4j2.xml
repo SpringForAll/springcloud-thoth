@@ -12,7 +12,7 @@
     </appenders>
 
     <loggers>
-        <logger name="com.changyou.thoth" level="debug" />
+        <logger name="com.prometheus.thoth" level="debug" />
         <root level="info">
             <appenderref ref="CONSOLE" />
         </root>

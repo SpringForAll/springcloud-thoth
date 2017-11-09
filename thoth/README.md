@@ -18,7 +18,7 @@
  - 在thoth-robot-ms的web中引入fastdfs模块，只需要在web中的pom.xml中添加
 ```
 <dependency>
-    <groupId>com.changyou</groupId>
+    <groupId>com.prometheus</groupId>
     <artifactId>thoth-fastdfs</artifactId>
     <version>${thoth-robot.version}</version>
 </dependency>

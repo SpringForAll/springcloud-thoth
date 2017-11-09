@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>thoth-parent</artifactId>
-        <groupId>com.changyou</groupId>
+        <groupId>com.prometheus</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
@@ -33,7 +33,7 @@
     </modules>
     <dependencies>
         <dependency>
-            <groupId>com.changyou</groupId>
+            <groupId>com.prometheus</groupId>
             <artifactId>thoth-dependencies</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <optional>true</optional>
@@ -50,7 +50,7 @@
         <developer>
             <name>sunliangliang</name>
             <email>sunliangliang@cyou-inc.com</email>
-            <organization>changyou</organization>
+            <organization>prometheus</organization>
         </developer>
     </developers>
 

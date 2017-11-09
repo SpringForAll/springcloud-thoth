@@ -1,4 +1,4 @@
-package com.changyou.thoth.data.kafka.config;
+package com.prometheus.thoth.data.kafka.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

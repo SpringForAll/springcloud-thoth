@@ -1,4 +1,4 @@
-package com.changyou.thoth.data;
+package com.prometheus.thoth.data;
 
 import org.junit.Test;
 import org.slf4j.Logger;
