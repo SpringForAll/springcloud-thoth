@@ -13,9 +13,9 @@ import org.springframework.util.concurrent.ListenableFutureCallback;
 import java.io.Serializable;
 
 /**
- * Created by wujun on 2017/03/18.
+ * Created by liangliang on 2017/03/18.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/18
  */
 public class KafkaProducer {

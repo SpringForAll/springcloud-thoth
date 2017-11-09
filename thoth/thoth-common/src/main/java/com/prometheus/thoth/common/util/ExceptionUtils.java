@@ -19,7 +19,7 @@ import java.io.PrintWriter;
  * <p>
  * 2. StackTrace性能优化相关，尽量使用静态异常避免异常生成时获取StackTrace，及打印StackTrace的消耗
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/08
  */
 public class ExceptionUtils {

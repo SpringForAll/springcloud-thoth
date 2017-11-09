@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 统计-时间间隔.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/06/20
  */
 public enum DateInterval {

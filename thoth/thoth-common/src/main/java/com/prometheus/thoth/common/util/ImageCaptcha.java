@@ -11,7 +11,7 @@ import java.util.Random;
 
 /**
  * 图片验证码生成工具
- * Created by wushaoyong on 2017/7/17.
+ * Created by liangliang on 2017/7/17.
  */
 public class ImageCaptcha {
 

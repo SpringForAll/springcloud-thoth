@@ -1,9 +1,9 @@
 package com.prometheus.thoth.common.exception;
 
 /**
- * Created by wujun on 2017/05/05.
+ * Created by liangliang on 2017/05/05.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/05/05
  */
 public class ArgumentException extends java.lang.IllegalArgumentException {

@@ -16,9 +16,9 @@ import org.springframework.context.annotation.Import;
 import javax.annotation.PostConstruct;
 
 /**
- * Created by wujun on 2017/03/27.
+ * Created by liangliang on 2017/03/27.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/27
  */
 @Configuration

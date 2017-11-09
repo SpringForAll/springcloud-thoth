@@ -3,9 +3,9 @@ package com.prometheus.thoth.fastdfs.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Created by wujun on 2017/03/27.
+ * Created by liangliang on 2017/03/27.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/27
  */
 @ConfigurationProperties(prefix = FastDFSProperties.CONFIG_PREFIX)

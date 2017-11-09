@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  * Kafka分区.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/18
  */
 public class SimplePartitioner implements Partitioner {

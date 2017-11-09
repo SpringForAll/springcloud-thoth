@@ -1,7 +1,7 @@
 package com.prometheus.thoth.common.exception;
 
 /**
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 public enum GlobalErrorCode implements ErrorCode {
 
@@ -18,7 +18,7 @@ public enum GlobalErrorCode implements ErrorCode {
     INTERNAL_SERVER_ERROR(500, "Internal Server Error"),
     MONGO_COLLECTION_NOT_EXIT(3301, "MONGO COLLECTION NOT EXIST"),
     INVALID_PARAM(100, "参数错误"),
-
+    TENANTID_ID_NOT_EMPTY(1001, "租户ID不能为空"),
     UNSUPPORT_IMAGE_TYPE(110, "不支持的图片格式"),
     UNSUPPORT_STORE_PATH(111, "找不到文件"),;
 

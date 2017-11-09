@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 public abstract class BaseController {
 

@@ -7,9 +7,9 @@ import com.github.pagehelper.PageHelper;
 import java.util.List;
 
 /**
- * Created by wujun on 2017/02/25.
+ * Created by liangliang on 2017/02/25.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/02/25
  */
 public abstract class PageServiceImpl<T> extends LoggerService implements BasePageService<T> {

@@ -16,7 +16,10 @@
     <file url="file://$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thoth/thoth-dependencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thoth/thoth-fastdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thoth/thoth-mongo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thoth/thoth-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thoth/thoth-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thoth/thoth-test" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

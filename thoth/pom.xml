@@ -14,6 +14,9 @@
 		<module>thoth-data-hbase</module>
 		<module>thoth-data-kafka</module>
 		<module>thoth-fastdfs</module>
+		<module>thoth-mongo</module>
+		<module>thoth-redis</module>
+		<module>thoth-test</module>
 	</modules>
 	<packaging>pom</packaging>
 

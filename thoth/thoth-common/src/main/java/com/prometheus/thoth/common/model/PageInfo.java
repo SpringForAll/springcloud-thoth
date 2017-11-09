@@ -7,9 +7,9 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by wujun on 2017/02/25.
+ * Created by liangliang on 2017/02/25.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/02/25
  */
 public class PageInfo<T> extends com.github.pagehelper.PageInfo {

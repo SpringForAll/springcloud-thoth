@@ -9,7 +9,7 @@ import java.text.NumberFormat;
 /**
  * 百分比计算.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/07/03
  */
 public class MathtUtils {

@@ -3,9 +3,9 @@ package com.prometheus.thoth.data.es.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Created by wujun on 2017/04/11.
+ * Created by liangliang on 2017/04/11.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/11
  */
 @ConfigurationProperties(prefix = ElasticsearchProperties.ELASTICSEARCH_PREFIX)

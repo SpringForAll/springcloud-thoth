@@ -5,9 +5,9 @@ import com.prometheus.thoth.data.hbase.annotation.HbaseTeable;
 import com.prometheus.thoth.data.hbase.annotation.RowKey;
 
 /**
- * Created by wujun on 2017/04/11.
+ * Created by liangliang on 2017/04/11.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/11
  */
 @HbaseTeable(tableName = "user", family = "info")

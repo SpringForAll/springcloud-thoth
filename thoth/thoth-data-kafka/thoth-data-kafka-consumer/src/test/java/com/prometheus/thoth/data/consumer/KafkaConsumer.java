@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 /**
- * Created by wujun on 2017/03/18.
+ * Created by liangliang on 2017/03/18.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/18
  */
 @Component

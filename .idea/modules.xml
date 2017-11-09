@@ -17,7 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/thoth-data-kafka-producer.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/thoth-data-kafka-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-dependencies/thoth-dependencies.iml" filepath="$PROJECT_DIR$/thoth/thoth-dependencies/thoth-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-fastdfs/thoth-fastdfs.iml" filepath="$PROJECT_DIR$/thoth/thoth-fastdfs/thoth-fastdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth/thoth-mongo/thoth-mongo.iml" filepath="$PROJECT_DIR$/thoth/thoth-mongo/thoth-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-parent/thoth-parent.iml" filepath="$PROJECT_DIR$/thoth/thoth-parent/thoth-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth/thoth-redis/thoth-redis.iml" filepath="$PROJECT_DIR$/thoth/thoth-redis/thoth-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-registry-server/thoth-registry-server.iml" filepath="$PROJECT_DIR$/thoth-registry-server/thoth-registry-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/registry-server/thoth-registry-server.iml" filepath="$PROJECT_DIR$/registry-server/thoth-registry-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/thoth-robot-common.iml" filepath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/thoth-robot-common.iml" />
@@ -25,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-ms.iml" filepath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/thoth-robot-service.iml" filepath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/thoth-robot-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/thoth-robot-web.iml" filepath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/thoth-robot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth/thoth-test/thoth-test.iml" filepath="$PROJECT_DIR$/thoth/thoth-test/thoth-test.iml" />
     </modules>
   </component>
 </project>

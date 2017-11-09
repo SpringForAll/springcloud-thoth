@@ -18,11 +18,14 @@
         <module name="thoth-data-kafka-producer" />
         <module name="thoth-dependencies" />
         <module name="thoth-fastdfs" />
+        <module name="thoth-mongo" />
+        <module name="thoth-redis" />
         <module name="thoth-registry-server" />
         <module name="thoth-robot-common" />
         <module name="thoth-robot-entity" />
         <module name="thoth-robot-service" />
         <module name="thoth-robot-web" />
+        <module name="thoth-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,13 +44,16 @@
       <module name="thoth-data-kafka-producer" target="1.8" />
       <module name="thoth-dependencies" target="1.8" />
       <module name="thoth-fastdfs" target="1.8" />
+      <module name="thoth-mongo" target="1.8" />
       <module name="thoth-parent" target="1.8" />
+      <module name="thoth-redis" target="1.8" />
       <module name="thoth-registry-server" target="1.8" />
       <module name="thoth-robot-common" target="1.8" />
       <module name="thoth-robot-entity" target="1.8" />
       <module name="thoth-robot-ms" target="1.8" />
       <module name="thoth-robot-service" target="1.8" />
       <module name="thoth-robot-web" target="1.8" />
+      <module name="thoth-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

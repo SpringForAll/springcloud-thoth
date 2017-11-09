@@ -10,7 +10,7 @@ import java.util.List;
  * Not often used, but a useful option to enhance testability, as it can easily be mocked or
  * stubbed.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/10
  */
 public interface HbaseOperations {

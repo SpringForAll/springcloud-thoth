@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * 统计-时间类型.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/06/20
  */
 public enum TimeType {

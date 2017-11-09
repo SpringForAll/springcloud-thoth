@@ -3,7 +3,7 @@ package com.prometheus.thoth.common.exception;
 /**
  * 业务异常.
  * <p>
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 public class BusinessException extends RuntimeException {
 

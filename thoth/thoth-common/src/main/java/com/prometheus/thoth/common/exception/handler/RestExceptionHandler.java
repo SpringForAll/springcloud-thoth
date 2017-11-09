@@ -28,7 +28,7 @@ import java.util.Map;
 /**
  * SpringMVC全局错误处理.
  * <p>
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 @RestControllerAdvice
 public class RestExceptionHandler {

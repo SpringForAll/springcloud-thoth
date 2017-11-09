@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by wujun on 2017/04/11.
+ * Created by liangliang on 2017/04/11.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/11
  */
 @Service("hbaseAccountInfoService")

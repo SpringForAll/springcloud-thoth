@@ -21,9 +21,9 @@ import java.io.Serializable;
 import java.util.Map;
 
 /**
- * Created by wujun on 2017/03/18.
+ * Created by liangliang on 2017/03/18.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/18
  */
 @Configuration

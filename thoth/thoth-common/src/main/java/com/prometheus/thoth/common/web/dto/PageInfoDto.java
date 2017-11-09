@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.io.Serializable;
 
 /**
- * Created by wujun on 2017/02/25.
+ * Created by liangliang on 2017/02/25.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/02/25
  */
 public class PageInfoDto implements Serializable {

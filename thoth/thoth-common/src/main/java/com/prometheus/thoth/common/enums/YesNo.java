@@ -11,7 +11,7 @@ import java.util.Map;
  * <pre>Yes：1</pre>
  * <pre>No：0</pre>
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/08/18
  */
 public enum YesNo {

@@ -3,9 +3,9 @@ package com.prometheus.thoth.data.hbase.exception;
 import org.springframework.dao.UncategorizedDataAccessException;
 
 /**
- * Created by wujun on 2017/04/10.
+ * Created by liangliang on 2017/04/10.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/10
  */
 public class HbaseException extends UncategorizedDataAccessException {

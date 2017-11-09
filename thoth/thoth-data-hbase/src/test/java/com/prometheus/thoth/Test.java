@@ -3,9 +3,9 @@ package com.prometheus.thoth;
 import com.prometheus.thoth.data.hbase.demo.Info;
 
 /**
- * Created by wujun on 2017/04/22.
+ * Created by liangliang on 2017/04/22.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/22
  */
 public class Test {

@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by wujun on 2017/02/25.
+ * Created by liangliang on 2017/02/25.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/02/25
  */
 public abstract class BasePageController<T> extends BaseController {

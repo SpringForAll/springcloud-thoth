@@ -24,9 +24,9 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by wujun on 2017/03/27.
+ * Created by liangliang on 2017/03/27.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/27
  */
 public class FastDFSClient {

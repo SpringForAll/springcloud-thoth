@@ -12,7 +12,7 @@ import java.util.*;
 /**
  * 日期工具类.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/24
  */
 public abstract class DateUtils {

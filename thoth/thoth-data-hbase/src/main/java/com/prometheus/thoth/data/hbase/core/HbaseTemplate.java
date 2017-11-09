@@ -28,9 +28,9 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by wujun on 2017/04/10.
+ * Created by liangliang on 2017/04/10.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/10
  */
 public class HbaseTemplate implements HbaseOperations {

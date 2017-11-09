@@ -3,7 +3,7 @@ package com.prometheus.thoth.common.service;
 import java.util.List;
 
 /**
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 public interface BaseService<T> {
 

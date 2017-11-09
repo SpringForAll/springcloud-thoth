@@ -12,7 +12,7 @@ import java.io.Serializable;
 /**
  * 统一返回结果RestResult.
  * <p>
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class RestResult<T extends Object> implements Serializable{

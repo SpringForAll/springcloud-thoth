@@ -12,9 +12,9 @@ import javax.servlet.ServletResponse;
 import java.io.PrintWriter;
 
 /**
- * Created by wujun on 2017/05/17.
+ * Created by liangliang on 2017/05/17.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/05/17
  */
 public class WebUtils {

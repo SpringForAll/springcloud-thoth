@@ -1,6 +1,7 @@
 package com.prometheus.thoth.common.util;
 
 import com.alibaba.fastjson.JSON;
+import com.prometheus.thoth.common.model.JsonResult;
 import com.prometheus.thoth.common.model.RestResult;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpRequest;
@@ -27,7 +28,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by wushaoyong on 2017/3/14.
+ * Created by liangliang on 2017/3/14.
  */
 public class HttpClientUtils {
     static Logger logger = LoggerFactory.getLogger(HttpClientUtils.class);
@@ -100,9 +101,7 @@ public class HttpClientUtils {
     }
 
     public static RestResult jsonHttpResponseToRestResult(HttpResponse response) throws IOException {
-
-
-        HttpEntity responseEntity = response.getEntity();
+         HttpEntity responseEntity = response.getEntity();
         StringBuilder sb = new StringBuilder();
         InputStream in = responseEntity.getContent();
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
@@ -117,8 +116,32 @@ public class HttpClientUtils {
         } finally {
             in.close();
         }
-
     }
+
+    public static JsonResult jsonHttpResponseToJson(HttpResponse response) throws IOException {
+        HttpEntity responseEntity = response.getEntity();
+        StringBuilder sb = new StringBuilder();
+        InputStream in = responseEntity.getContent();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+        String line = "";
+        try {
+            while ((line = reader.readLine()) != null) {
+                sb.append(line);
+            }
+            logger.debug("response inputStream: {}", sb.toString());
+            JsonResult jsonResult = JSON.parseObject(sb.toString(), JsonResult.class);
+            return jsonResult;
+        } finally {
+            in.close();
+        }
+    }
+
+
+
+
+
+
+
 
     public static String getContent(HttpResponse response) throws IOException {
         HttpEntity responseEntity = response.getEntity();

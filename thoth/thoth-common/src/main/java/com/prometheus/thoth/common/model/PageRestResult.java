@@ -4,9 +4,9 @@ import com.alibaba.fastjson.annotation.JSONField;
 
 
 /**
- * Created by wujun on 2017/02/25.
+ * Created by liangliang on 2017/02/25.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/02/25
  */
 public class PageRestResult extends RestResult {

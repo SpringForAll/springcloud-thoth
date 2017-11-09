@@ -3,7 +3,7 @@ package com.prometheus.thoth.common.exception;
 /**
  * 应用异常.
  * <p>
- * Created by wujun on 2017/02/17.
+ * Created by liangliang on 2017/02/17.
  */
 public class ApplicationException extends RuntimeException {
 

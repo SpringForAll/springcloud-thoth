@@ -2,7 +2,7 @@ package com.prometheus.thoth.common.model;
 
 
 /**
- * Created by wushaoyong on 2017/2/24.
+ * Created by liangliang on 2017/2/24.
  */
 public class PageEntity {
     private Integer currentPage;

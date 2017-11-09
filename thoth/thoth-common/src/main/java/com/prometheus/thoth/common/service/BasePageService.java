@@ -4,9 +4,9 @@ package com.prometheus.thoth.common.service;
 import com.prometheus.thoth.common.model.PageInfo;
 
 /**
- * Created by wujun on 2017/02/25.
+ * Created by liangliang on 2017/02/25.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/02/25
  */
 public interface BasePageService<T> extends BaseService<T> {

@@ -9,7 +9,7 @@ import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 public abstract class BaseEntity implements Serializable {
 

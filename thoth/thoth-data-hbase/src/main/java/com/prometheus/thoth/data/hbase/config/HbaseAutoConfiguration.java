@@ -11,9 +11,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 
 /**
- * Created by wujun on 2017/04/10.
+ * Created by liangliang on 2017/04/10.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/04/10
  */
 @org.springframework.context.annotation.Configuration

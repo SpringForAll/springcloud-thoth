@@ -3,9 +3,9 @@ package com.prometheus.thoth.data.kafka.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Created by wujun on 2017/03/18.
+ * Created by liangliang on 2017/03/18.
  *
- * @author wujun
+ * @author liangliang
  * @since 2017/03/18
  */
 @ConfigurationProperties(prefix = KafkaConsumerProperties.KAFKA_CONSUMER_PREFIX)

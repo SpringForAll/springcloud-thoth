@@ -7,7 +7,7 @@ import com.prometheus.thoth.common.exception.GlobalErrorCode;
 /**
  * RestResult Builder
  * <p>
- * Created by wujun on 2017/02/16.
+ * Created by liangliang on 2017/02/16.
  */
 public class RestResultBuilder<T> {
 
