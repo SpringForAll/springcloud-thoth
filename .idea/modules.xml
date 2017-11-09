@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/rampage-data-kafka-producer.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/rampage-data-kafka-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth.iml" filepath="$PROJECT_DIR$/thoth/thoth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/thoth-ai-entity.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/thoth-ai-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-ms.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/thoth-ai-service.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/thoth-ai-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/thoth-ai-web.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/thoth-ai-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-clazz-ms/thoth-class-ms.iml" filepath="$PROJECT_DIR$/thoth-clazz-ms/thoth-class-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-entity/thoth-clazz-entity.iml" filepath="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-entity/thoth-clazz-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-service/thoth-clazz-service.iml" filepath="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-service/thoth-clazz-service.iml" />

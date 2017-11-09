@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/thoth/thoth-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/thoth/thoth-redis/pom.xml" />
         <option value="$PROJECT_DIR$/thoth/thoth-test/pom.xml" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/pom.xml" />
       </list>
     </option>
   </component>

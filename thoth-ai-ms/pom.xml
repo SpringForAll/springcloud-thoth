@@ -10,20 +10,27 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>thoth-robot-ms</artifactId>
+    <artifactId>thoth-ai-ms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>thoth-robot-ms</name>
-    <description>thoth-robot</description>
+    <name>thoth-ai-ms</name>
+    <description>thoth-ai</description>
 
     <modules>
-        <module>thoth-robot-entity</module>
-        <module>thoth-robot-service</module>
-        <module>thoth-robot-common</module>
-        <module>thoth-robot-web</module>
+        <module>thoth-ai-entity</module>
+        <module>thoth-ai-service</module>
+        <module>thoth-ai-web</module>
     </modules>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+
+
         <dependency>
             <groupId>com.prometheus</groupId>
             <artifactId>thoth-dependencies</artifactId>

@@ -5,20 +5,16 @@ package com.prometheus.thoth.robot.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.prometheus.thoth.common.exception.BusinessException;
-import com.prometheus.thoth.common.model.PageRestResult;
 import com.prometheus.thoth.common.model.RestResult;
-import com.prometheus.thoth.common.util.Constants;
 import com.prometheus.thoth.common.util.DateUtils;
 import com.prometheus.thoth.common.util.HttpClientUtils;
 import com.prometheus.thoth.robot.dao.CommonMsgMapper;
-import com.prometheus.thoth.robot.dao.IndustryMapper;
+
 import com.prometheus.thoth.robot.dao.RobotMapper;
 import com.prometheus.thoth.robot.dto.RobotDto;
 import com.prometheus.thoth.robot.entity.CommonMsg;
-import com.prometheus.thoth.robot.entity.Industry;
 import com.prometheus.thoth.robot.entity.Robot;
 import com.prometheus.thoth.robot.exception.RobotErrorCode;
-import com.prometheus.thoth.robot.service.CommonMsgService;
 import com.prometheus.thoth.robot.service.RobotService;
 import com.prometheus.thoth.robot.vo.RobotVo;
 import com.prometheus.thoth.utils.RobotConstants;
@@ -46,8 +42,7 @@ public class RobotServiceImpl implements RobotService {
     private RobotMapper robotMapper;
 	@Autowired
 	private CommonMsgMapper commonMsgMapper;
-	@Autowired
-	private IndustryMapper industryMapper;
+
 	@Value("${fastdfs.nginx-web:}")
 	String fastdfsUrl;
 	@Value("${robot.ai.robot.update:}")
@@ -132,12 +127,10 @@ public class RobotServiceImpl implements RobotService {
 	}
 
 	@Override
-	public RobotVo getRobotVoById(Long id) {
-		Robot robot = this.getById(id);
-		Industry industry = industryMapper.getById(robot.getIndustryId());
+	public RobotVo getRobotVoById(Long robotId) {
+		Robot robot = this.getById(robotId);
 		RobotVo robotVo = new RobotVo(robot);
-		robotVo.setIndustryName(industry.getName());
-		List<CommonMsg> commonMsgs = commonMsgMapper.listCommonMsgsByRobotId(id);
+		List<CommonMsg> commonMsgs = commonMsgMapper.listByRobotId(robotId,RobotConstants.COMMON_MSG_UNKNOW_ANSWER);
 		robotVo.setCommonMsgs(commonMsgs);
 		return robotVo;
 	}

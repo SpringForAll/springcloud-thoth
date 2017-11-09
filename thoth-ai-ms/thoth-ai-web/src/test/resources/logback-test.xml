@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" packagingData="false" scan="true"
+               scanPeriod="5 minutes">
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+        <target>System.out</target>
+    </appender>
+
+    <logger name="com.prometheus.thoth" level="debug" additivity="true"/>
+
+    <root level="error">
+        <appender-ref ref="Console"/>
+    </root>
+</configuration>
