@@ -49,6 +49,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ApplicationException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/exception/ApplicationException.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClazzWebConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClazzWebConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/config/ClazzWebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="859">
@@ -193,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/changyou/thoth/robot/controller/RobotLibController.java" />
         <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/config/ClazzWebConfig.java" />
         <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/enums/AccessWay.java" />
         <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/enums/DateInterval.java" />
@@ -244,6 +253,7 @@
         <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/config/ClazzWebConfig.java" />
         <option value="$PROJECT_DIR$/thoth-config-server/src/main/java/com/prometheus/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/enums/DateInterval.java" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -363,87 +373,6 @@
           <expand>
             <path>
               <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="ClazzWebConfig" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="thoth-robot-ms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -470,16 +399,7 @@
               <item name="thoth-robot-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth-robot-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-robot-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -697,12 +617,12 @@
       <workItem from="1509364927845" duration="1301000" />
       <workItem from="1509413807727" duration="69546000" />
       <workItem from="1509850701723" duration="3421000" />
-      <workItem from="1510220698281" duration="2210000" />
+      <workItem from="1510220698281" duration="2309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78304000" />
+    <option name="totallyTimeSpent" value="78403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1078,14 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thoth-registry-server/src/main/java/com/prometheus/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1205,6 +1117,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
