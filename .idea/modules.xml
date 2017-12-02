@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/rampage-data-kafka-producer.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/rampage-data-kafka-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-thoth.iml" filepath="$PROJECT_DIR$/.idea/springcloud-thoth.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth.iml" filepath="$PROJECT_DIR$/thoth/thoth.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/thoth-ai-entity.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/thoth-ai-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-ms.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/thoth-ai-service.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/thoth-ai-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/thoth-ai-web.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/thoth-ai-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thoth-clazz-ms/thoth-class-ms.iml" filepath="$PROJECT_DIR$/thoth-clazz-ms/thoth-class-ms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-entity/thoth-clazz-entity.iml" filepath="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-entity/thoth-clazz-entity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-service/thoth-clazz-service.iml" filepath="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-service/thoth-clazz-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-web/thoth-clazz-web.iml" filepath="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-web/thoth-clazz-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-common/thoth-common.iml" filepath="$PROJECT_DIR$/thoth/thoth-common/thoth-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-config-server/thoth-config-server.iml" filepath="$PROJECT_DIR$/thoth-config-server/thoth-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-data-es/thoth-data-es.iml" filepath="$PROJECT_DIR$/thoth/thoth-data-es/thoth-data-es.iml" />
@@ -25,7 +21,6 @@
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-parent/thoth-parent.iml" filepath="$PROJECT_DIR$/thoth/thoth-parent/thoth-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth-redis/thoth-redis.iml" filepath="$PROJECT_DIR$/thoth/thoth-redis/thoth-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-registry-server/thoth-registry-server.iml" filepath="$PROJECT_DIR$/thoth-registry-server/thoth-registry-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/registry-server/thoth-registry-server.iml" filepath="$PROJECT_DIR$/registry-server/thoth-registry-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/thoth-robot-common.iml" filepath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/thoth-robot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/thoth-robot-entity.iml" filepath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/thoth-robot-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-ms.iml" filepath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-ms.iml" />

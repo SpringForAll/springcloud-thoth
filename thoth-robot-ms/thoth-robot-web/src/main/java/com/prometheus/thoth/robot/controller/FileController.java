@@ -18,6 +18,7 @@ import java.io.IOException;
 
 /**
  * created by sunliangliang
+ * 该类是利用fastdfs文件做管理
  */
 @RestController
 public class FileController extends BaseController{

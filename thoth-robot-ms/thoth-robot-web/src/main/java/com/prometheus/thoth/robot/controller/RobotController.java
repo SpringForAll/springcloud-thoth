@@ -37,7 +37,7 @@ import java.util.List;
  */
 
 @RestController
-@RequestMapping("/robot")
+@RequestMapping("/api/robot")
 public class RobotController extends BaseController {
 
     @Autowired
@@ -60,7 +60,6 @@ public class RobotController extends BaseController {
 
 	@ApiOperation(value="修改机器人信息", notes="根据url的id来指定更新对象，并根据传过来的robot信息来更新机器人详细信息")
 	@ApiImplicitParams({
-//			@ApiImplicitParam(name = "id", value = "机器人id", required = true, dataType = "Long", paramType = "path"),
 			@ApiImplicitParam(name = "robotDto", value = "机器人实体robot", required = true, dataType = "RobotDto")
 	})
 	@PutMapping(value = "/update/{id}")

@@ -33,7 +33,14 @@
             <artifactId>json</artifactId>
             <version>20171018</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.prometheus</groupId>
+            <artifactId>thoth-robot-entity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.prometheus</groupId>
+            <artifactId>thoth-robot-entity</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

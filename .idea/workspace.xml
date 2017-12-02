@@ -1,39 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="GROUP_BY_SEVERITY" value="true" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ca2b016-8c05-4026-8509-5ac1f6a3ea59" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/thoth/target/" />
-    <ignored path="$PROJECT_DIR$/registry-server/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-config-server/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-parent/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-registry-server/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/target/" />
+    <list default="true" id="687685de-d9bb-407c-87e8-b229a7ad4421" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/ChatRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/Interlocution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotFeignClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotInterlocutionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingInterlocution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/ai/controller/IntegerlocutionController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/bootstrap.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-registry-server/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotRpcController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/bootstrap.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/dto/QuestionInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/AIResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/GetSentiment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/AIRobotService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingRobotService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/resources/mapper/CommonMsgMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/resources/mapper/IndustryMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/resources/mapper/RobotLibMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/resources/mapper/RobotMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-config-repository/respo/clazz-ms-dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-config-repository/respo/config-client-dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-registry-server/src/main/resources/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/Robot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/RobotLibMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/java/com/changyou/thoth/RobotMsApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/java/com/changyou/thoth/Swagger2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/java/com/changyou/thoth/task/controller/CommonMsgController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/java/com/changyou/thoth/task/controller/FileController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/java/com/changyou/thoth/task/controller/IndustryController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/java/com/changyou/thoth/task/controller/RobotController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/java/com/changyou/thoth/task/controller/RobotLibController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/main/resources/log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/test/resources/application-test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoth-task-ms/thoth-task-schedule/src/test/resources/logback-test.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-ai-ms/README.md" afterPath="$PROJECT_DIR$/thoth-ai-ms/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/pom.xml" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/pom.xml" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/AIMsApplication.java" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/AIMsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-config-server/README.md" afterPath="$PROJECT_DIR$/thoth-config-server/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-config-server/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/thoth-config-server/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-robot-ms/README.md" afterPath="$PROJECT_DIR$/thoth-robot-ms/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/src/main/java/com/prometheus/thoth/utils/TenantUtils.java" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/src/main/java/com/prometheus/thoth/utils/TenantUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/pom.xml" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/RobotMsApplication.java" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/RobotMsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/FileController.java" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/FileController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotController.java" afterPath="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/application.properties.bak" />
+    </list>
     <ignored path="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/target/" />
     <ignored path="$PROJECT_DIR$/thoth-robot-ms/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/target/" />
     <ignored path="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-clazz-ms/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-common/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-dependencies/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-fastdfs/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-entity/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-service/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-clazz-ms/thoth-clazz-web/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-data-es/target/" />
+    <ignored path="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/target/" />
+    <ignored path="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/target/" />
+    <ignored path="$PROJECT_DIR$/thoth-registry-server/target/" />
     <ignored path="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-data-kafka/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-data-hbase/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-data-es/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-test/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-common/target/" />
     <ignored path="$PROJECT_DIR$/thoth/thoth-mongo/target/" />
     <ignored path="$PROJECT_DIR$/thoth/thoth-redis/target/" />
-    <ignored path="$PROJECT_DIR$/thoth/thoth-test/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/target/" />
-    <ignored path="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-data-kafka/target/" />
     <ignored path="$PROJECT_DIR$/thoth-ai-ms/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-data-kafka/thoth-data-kafka-producer/target/" />
+    <ignored path="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-fastdfs/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-parent/target/" />
+    <ignored path="$PROJECT_DIR$/thoth/thoth-data-hbase/target/" />
+    <ignored path="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/target/" />
     <ignored path="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/target/" />
+    <ignored path="$PROJECT_DIR$/thoth-config-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,42 +101,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AIMsApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/AIMsApplication.java">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thoth-config-server/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thoth-config-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="189">
+              <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AIRobotService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/AIRobotService.java">
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TuLingRobotService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingRobotService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -95,45 +147,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>redis</find>
-      <find>mongo</find>
-      <find>listIndustrys</find>
-      <find>com.changyou.thoth.robot.dao.IndustryMapper</find>
-      <find>om.changyou.thoth.robot.model.Industry</find>
-      <find>model</find>
-      <find>getById</find>
-      <find>put</find>
-      <find>swagger</find>
-      <find>javax.servlet</find>
-      <find>Robot</find>
-      <find>gmtCreate</find>
-      <find>delete</find>
-      <find>log-path</find>
-      <find>update</find>
-      <find>getAvaliable</find>
-      <find>avaliable</find>
-      <find>gmtModified</find>
-      <find>get</find>
-      <find>fe</find>
-      <find>insert</find>
-      <find>list</find>
-      <find>_bean</find>
-      <find>libN</find>
-      <find>thoth</find>
-      <find>rampage</find>
-      <find>mo</find>
-      <find>changyou</find>
-      <find>wushaoyong</find>
-      <find>wujun</find>
+      <find>listByRobotId</find>
     </findStrings>
-    <replaceStrings>
-      <replace>robot</replace>
-      <replace>commonMsg</replace>
-      <replace>entity</replace>
-      <replace>thoth</replace>
-      <replace>prometheus</replace>
-      <replace>liangliang</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,57 +170,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/service/LoggerService.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/service/PageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/AssertUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/Constants.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/DateUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/DomainJsonUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/ExceptionLog.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/ExceptionUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/HttpClientUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/IPAddressUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/IdGenerator.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/ImageCaptcha.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/LRUCache.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/MathtUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/NetUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/ReflectionUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/RegXUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/StringUtils.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/changyou/thoth/common/util/VerificationUtils.java" />
-        <option value="$PROJECT_DIR$/thoth-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth/thoth-mongo/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth/thoth-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth/thoth-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth/thoth-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/config/ClazzWebConfig.java" />
-        <option value="$PROJECT_DIR$/thoth-config-server/src/main/java/com/prometheus/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/enums/DateInterval.java" />
-        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/dao/CommonMsgMapper.java" />
-        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/src/main/java/com/prometheus/thoth/utils/RobotConstants.java" />
-        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/impl/RobotServiceImpl.java" />
-        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/RobotAiFeignClient.java" />
-        <option value="$PROJECT_DIR$/thoth-robot-ms/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/exception/RobotErrorCode.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/Robot.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/RobotMsApplication.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/Document.java" />
         <option value="$PROJECT_DIR$/thoth-ai-ms/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/DetectLanguage.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/GetSentiment.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/AIService.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/AIResult.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/AIRobotService.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/dto/QuestionInfo.java" />
+        <option value="$PROJECT_DIR$/thoth-registry-server/pom.xml" />
+        <option value="$PROJECT_DIR$/thoth-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/thoth-config-server/README.md" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/src/main/java/com/prometheus/thoth/utils/TenantUtils.java" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotAiService.java" />
         <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingRobotService.java" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/ChatRecord.java" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/Interlocution.java" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotController.java" />
         <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/pom.xml" />
-        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotRpcController.java" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotFeignClient.java" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotInterlocutionService.java" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingInterlocution.java" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/AIMsApplication.java" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/ai/controller/IntegerlocutionController.java" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/RobotMsApplication.java" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/pom.xml" />
+        <option value="$PROJECT_DIR$/thoth-ai-ms/README.md" />
+        <option value="$PROJECT_DIR$/thoth-robot-ms/README.md" />
+        <option value="$PROJECT_DIR$/thoth-config-server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -225,23 +218,13 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="thoth-ai-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="thoth-ai-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-116" />
+    <option name="y" value="409" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -252,64 +235,10 @@
           <State>
             <id />
           </State>
-          <State>
-            <id>Ali-Check</id>
-          </State>
-          <State>
-            <id>Class metricsJava</id>
-          </State>
-          <State>
-            <id>Class structureJava</id>
-          </State>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Memory issuesJava</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>RegExp</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Visibility issuesJava</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SpringJavaAutowiringInspection</id>
+            <id>Android</id>
           </State>
         </selected-state>
       </profile-state>
@@ -331,124 +260,134 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
               <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
               <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-ai-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
               <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-ai-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
               <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-ai-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
               <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-ai-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="robot-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoth-ai-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="thoth-ai-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prometheus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prometheus" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigServerApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="springcloud-thoth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-thoth" type="462c0819:PsiDirectoryNode" />
+              <item name="thoth-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="D:/develop-software/node/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/git-study/generator" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="SearchEverywhereHistoryKey" value="Http&#9;PSI&#9;JAVA://com.prometheus.thoth.common.util.HttpClientUtils&#10;PageInfo&#9;FILE&#9;file://D:/develop-project/springcloud-thoth/thoth/thoth-common/src/main/java/com/changyou/thoth/common/model/PageInfo.java&#10;KafkaConsumerAutoConfiguration.&#9;FILE&#9;file://D:/thoth/robot/thoth/thoth-data-kafka/thoth-data-kafka-consumer/src/main/java/com/changyou/thoth/data/kafka/config/KafkaConsumerAutoConfiguration.java&#10;Kafkacontr&#9;FILE&#9;file://D:/thoth/robot/thoth/thoth-data-kafka/thoth-data-kafka-producer/src/test/java/com/changyou/thoth/kafka/controller/KafkaController.java&#10;Robotc&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-web/src/main/java/com/changyou/thoth/robot/controller/RobotController.java&#10;Htt&#9;PSI&#9;JAVA://com.changyou.thoth.common.util.HttpClientUtils&#10;Commo&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml&#10;CommonMsgMapper&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml&#10;commonMsgMapper&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml&#10;robotMapper&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/RobotMapper.xml&#10;Robote&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-entity/src/main/java/com/changyou/thoth/robot/exception/RobotErrorCode.java&#10;Robotd&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-entity/src/main/java/com/changyou/thoth/robot/dto/RobotDto.java&#10;Common&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml&#10;robotma&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/RobotMapper.xml&#10;robotm&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/RobotMapper.xml&#10;CommonMsgma&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml&#10;RobotC&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-web/src/main/java/com/changyou/thoth/robot/controller/RobotController.java&#10;Robotma&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/RobotMapper.xml&#10;commonMsgMapper.&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml&#10;common&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml&#10;indu&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-web/src/main/java/com/changyou/thoth/robot/controller/IndustryController.java&#10;Robo&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-web/src/main/java/com/changyou/thoth/robot/controller/RobotController.java&#10;Com&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-entity/src/main/java/com/changyou/thoth/robot/entity/CommonMsg.java&#10;industryMa&#9;FILE&#9;file://D:/thoth/robot/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/IndustryMapper.xml&#10;Mapper&#9;PSI&#9;JAVA://com.changyou.thoth.clazz.dao.LibMapper" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.prometheus.thoth.robot.dao" />
-      <recent name="com.changyou.thoth.common.enums" />
-      <recent name="com.changyou.thoth.common.util" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop-project\springcloud-thoth\thoth-ai-ms\thoth-ai-web\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develop-project\springcloud-thoth\thoth-registry-server" />
-      <recent name="D:\thoth\robot\thoth-robot-ms\thoth-robot-web\src\main\resources\sql" />
-      <recent name="D:\thoth\robot\thoth-robot-ms\thoth-robot-web\src\main\java\com\changyou\thoth\robot\controller" />
-      <recent name="D:\thoth\robot\thoth-robot-ms\thoth-robot-service\src\main\java\com\changyou\thoth\robot\service\impl" />
-      <recent name="D:\thoth\robot\thoth-robot-ms\thoth-robot-service\src\main\java\com\changyou\thoth\robot\service" />
+      <recent name="D:\develop-project\springcloud-thoth\thoth-ai-ms\thoth-ai-web\src\main\resources\sql" />
+      <recent name="D:\develop-project\springcloud-thoth\thoth-robot-ms\thoth-robot-web\src\main\resources" />
+      <recent name="D:\develop-project\springcloud-thoth\thoth-config-repository\respo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -463,21 +402,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AuthService">
+  <component name="RunManager" selected="Spring Boot.AIMsApplication">
     <configuration name="AIMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.prometheus.thoth.AIMsApplication" />
       <module name="thoth-ai-web" />
       <envs />
     </configuration>
-    <configuration name="AuthService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.prometheus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.prometheus.ConfigServerApplication" />
+      <module name="thoth-config-server" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.prometheus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.prometheus.EurekaServerApplication" />
+      <module name="thoth-registry-server" />
+      <envs />
+    </configuration>
+    <configuration name="RobotAiService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.prometheus.thoth.ai.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.prometheus.thoth.ai.service.AuthService" />
+      <option name="MAIN_CLASS_NAME" value="com.prometheus.thoth.ai.service.RobotAiService" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -487,44 +448,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="thoth-ai-service" />
-      <envs />
-    </configuration>
-    <configuration name="DetectLanguage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.prometheus.thoth.ai.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.prometheus.thoth.ai.entity.DetectLanguage" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="thoth-ai-entity" />
-      <envs />
-    </configuration>
-    <configuration name="GetSentiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.prometheus.thoth.ai.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.prometheus.thoth.ai.entity.GetSentiment" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="thoth-ai-entity" />
       <envs />
     </configuration>
     <configuration name="RobotMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -634,121 +557,76 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.RobotMsApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DetectLanguage" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GetSentiment" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TuLingRobotService" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.AIMsApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Application.AuthService" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.AIMsApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TuLingRobotService" />
+      <item index="5" class="java.lang.String" itemvalue="Application.RobotAiService" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.AuthService" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TuLingRobotService" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GetSentiment" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DetectLanguage" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RobotAiService" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TuLingRobotService" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6ca2b016-8c05-4026-8509-5ac1f6a3ea59" name="Default" comment="" />
-      <created>1509364922316</created>
+      <changelist id="687685de-d9bb-407c-87e8-b229a7ad4421" name="Default" comment="" />
+      <created>1512175052993</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1509364922316</updated>
-      <workItem from="1509364927845" duration="1301000" />
-      <workItem from="1509413807727" duration="69546000" />
-      <workItem from="1509850701723" duration="3421000" />
-      <workItem from="1510220698281" duration="6186000" />
-      <workItem from="1510302071063" duration="656000" />
+      <updated>1512175052993</updated>
+      <workItem from="1512175054469" duration="8963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83083000" />
+    <option name="totallyTimeSpent" value="8963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553419" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35550708" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28462377" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17681624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17230098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41221374" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2553419" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41221374" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.66412216" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13354701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -760,230 +638,195 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingRobotService.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingInterlocution.java</url>
+          <line>41</line>
           <properties />
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/config/ClazzWebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotLibController.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/IndustryController.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/CommonMsgController.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/thoth-registry-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/RobotMsApplication.java">
+    <entry file="file://$PROJECT_DIR$/thoth-config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/dao/RobotMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/CommonMsgService.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/RobotLibService.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/RobotService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="336">
+          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/impl/CommonMsgServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/dao/CommonMsgMapper.java">
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="84">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/src/main/java/com/prometheus/thoth/utils/RobotConstants.java">
+    <entry file="file://$PROJECT_DIR$/thoth-config-repository/respo/clazz-ms-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/impl/RobotServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/thoth-config-repository/respo/thoth-robot-ms-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/dto/RobotLibDto.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/dto/RobotDto.java">
+    <entry file="file://$PROJECT_DIR$/thoth-config-repository/respo/thoth-robot-ms-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-config-server/src/main/java/com/prometheus/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/entity/Industry.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/entity/RobotLib.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/entity/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/vo/RobotVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/LibFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/RobotAiFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/dto/RobotDto.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/CommonMsg.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/exception/AIErrorCode.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/vo/RobotVo.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/Robot.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/dao/CommonMsgMapper.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/LibFeignClient.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/RobotServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/ai/controller/FileController.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
-          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-          <folding>
-            <marker date="1510301910510" expanded="true" signature="855:2551" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="876:1020" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="1041:1196" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="1217:1386" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="1407:1575" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="1596:1769" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="1791:1961" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="1983:2367" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="2125:2345" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="2153:2319" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="2389:2531" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="2563:2782" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="2581:2769" ph="..." />
-            <marker date="1510301910510" expanded="true" signature="2602:2750" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/AIRobotService.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/GetSentiment.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/AIResult.java" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/dto/QuestionInfo.java" />
-    <entry file="file://$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/util/HttpClientUtils.java">
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/AIMsApplication.java">
+    <entry file="file://$PROJECT_DIR$/thoth-registry-server/src/main/java/com/prometheus/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="273">
+            <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/impl/RobotServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/entity/CommonMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/src/main/java/com/prometheus/thoth/robot/dto/RobotDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/RobotLibMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/RobotMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510226367204" expanded="true" signature="1217:1302" ph="select from tbl_robot" />
+            <marker date="1510226367204" expanded="true" signature="1365:1407" ph="delete from " />
+            <marker date="1510226367204" expanded="true" signature="1471:1533" ph="select from tbl_robot" />
+            <marker date="1510226367204" expanded="true" signature="5722:6855" ph="update tbl_r... " />
+            <marker date="1510226367204" expanded="true" signature="6991:7472" ph="insert into tbl_robot... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/IndustryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510226367202" expanded="true" signature="578:669" ph="select from tbl_industry" />
+            <marker date="1510226367202" expanded="true" signature="731:776" ph="delete from " />
+            <marker date="1510226367202" expanded="true" signature="1160:1226" ph="select from tbl_industry" />
+            <marker date="1510226367202" expanded="true" signature="1323:1458" ph="update tbl_i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/resources/mapper/CommonMsgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <marker date="1512196221776" expanded="true" signature="899:989" ph="select from tbl_common_msg" />
+            <marker date="1512196221776" expanded="true" signature="1052:1099" ph="delete from " />
+            <marker date="1512196221776" expanded="true" signature="1169:1358" ph="select from tbl_common_msg" />
+            <marker date="1512196221776" expanded="true" signature="1425:1482" ph="delete from " />
+            <marker date="1512196221776" expanded="true" signature="1546:2418" ph="select from tbl_common_msg" />
+            <marker date="1512196221776" expanded="true" signature="2499:2623" ph="select from tbl_common_msg" />
+            <marker date="1512196221776" expanded="true" signature="2720:3217" ph="update tbl_c... " />
+            <marker date="1512196221776" expanded="true" signature="3357:3679" ph="insert into tbl_common_msg... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-common/src/main/java/com/prometheus/thoth/utils/TenantUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -996,26 +839,266 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotAiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/GetSentiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1609">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/Interlocution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/AIResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/dto/QuestionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/src/main/java/com/prometheus/thoth/ai/entity/ChatRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/RobotService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-service/src/main/java/com/prometheus/thoth/robot/service/LibFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/AuthService.java">
+    <entry file="file://$PROJECT_DIR$/thoth/thoth-common/src/main/java/com/prometheus/thoth/common/model/RestResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="149">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingRobotService.java">
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/robot/controller/RobotRpcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/impl/TuLingInterlocution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-service/src/main/java/com/prometheus/thoth/ai/service/RobotInterlocutionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/ai/controller/IntegerlocutionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-registry-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/application.properties.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/java/com/prometheus/thoth/RobotMsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/java/com/prometheus/thoth/AIMsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/thoth-robot-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="80" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="75" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="63">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-robot-ms/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="294">
+            <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-config-server/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-web/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoth-config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
           <folding />
         </state>
       </provider>

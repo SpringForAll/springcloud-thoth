@@ -6,13 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rampage-data-kafka-producer" />
         <module name="thoth-ai-entity" />
         <module name="thoth-ai-service" />
         <module name="thoth-ai-web" />
-        <module name="thoth-clazz-entity" />
-        <module name="thoth-clazz-service" />
-        <module name="thoth-clazz-web" />
         <module name="thoth-common" />
         <module name="thoth-config-server" />
         <module name="thoth-data-es" />
@@ -32,16 +28,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rampage-data-kafka-producer" target="1.8" />
       <module name="thoth" target="1.7" />
       <module name="thoth-ai-entity" target="1.8" />
       <module name="thoth-ai-ms" target="1.8" />
       <module name="thoth-ai-service" target="1.8" />
       <module name="thoth-ai-web" target="1.8" />
-      <module name="thoth-class-ms" target="1.8" />
-      <module name="thoth-clazz-entity" target="1.8" />
-      <module name="thoth-clazz-service" target="1.8" />
-      <module name="thoth-clazz-web" target="1.8" />
       <module name="thoth-common" target="1.8" />
       <module name="thoth-config-server" target="1.8" />
       <module name="thoth-data-es" target="1.8" />

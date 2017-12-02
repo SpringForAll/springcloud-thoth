@@ -1,6 +1,6 @@
 eureka.client.serviceUrl.defaultZone= http://${registry-server:localhost}:7777/eureka/
-spring.application.name = thoth-robot-ms
-server.port= 8880
+spring.application.name = thoth-ai-ms
+server.port= 8881
 
 # 数据库配置
 spring.datasource.url=jdbc:mysql://localhost:3306/thoth_basic_dev?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
@@ -14,10 +14,11 @@ mybatis.mapperLocations=classpath*:/mapper/*.xml
 spring.jmx.enabled=false
 fdfs.soTimeout=1500
 fdfs.connectTimeout=600
-fdfs.trackerList[0]=10.12.0.12:22122
-fdfs.trackerList[1]=10.12.0.13:22122
-fastdfs.nginx-web=http://10.12.0.14
+fdfs.trackerList[0]=127.0.0.1:22122
+fdfs.trackerList[1]=127.0.0.1:22122
+fastdfs.nginx-web=http://127.0.0.1
 #----------------------------------------------
 ##end fastdfs
-robot.ai.host=http://10.12.0.54:8080
-robot.ai.robot.update=${robot.ai.host}/robot-ai/create
+### begin robot
+robot.tuling.interlocution-url = http://www.tuling123.com/openapi/api?key={apiKey}&info={info}
+robot.tuling.APIKEY = 160ce2fe5dd14e3ea6c9888051e7027a

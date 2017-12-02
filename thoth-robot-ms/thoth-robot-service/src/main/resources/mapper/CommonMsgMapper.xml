@@ -33,6 +33,18 @@
 		id = #{id}
 	</delete>
 
+	<select id="listByRobotId" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from tbl_common_msg
+		WHERE
+		robotId = #{robotId}
+		<if test="msgType != null">
+			and type = #{msgType}
+		</if>
+		order by gmtModified desc
+	</select>
+
 	<delete id="deleteByRobotId" parameterType="Long">
 		delete from tbl_common_msg
 		where

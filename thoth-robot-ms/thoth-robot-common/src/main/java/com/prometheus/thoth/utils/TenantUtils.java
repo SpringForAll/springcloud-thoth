@@ -8,7 +8,7 @@ package com.prometheus.thoth.utils;
 public class TenantUtils {
     public static Long getTenantId(){
 
-        return 1000L;
+        return 1001L;
     }
 
 }

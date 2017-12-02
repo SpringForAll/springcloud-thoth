@@ -1,12 +1,13 @@
 #### 项目说明
 该项目是一个典型的由springcloud管理的微服务项目，主要包括如下模块
 
-|服务名|父级依赖|模块说明|  
-|--    |-------      |--      |
-|thoth|无|为微服务提供统一的pom管理，以及通用组件|
-|thoth-registry-server|无|注册中心|
-|thoth-config-server| 无|微服务统一配置管理|
-|thoth-robot-ms|无|springcloud中的一个微服务|
+|服务名 | 父级依赖 | 模块说明|
+|----|----|----        |
+|thoth|无|为微服务提供统一的pom管理，以及通用组件|  
+|thoth-registry-server|无|注册中心,Eureka|  
+|thoth-config-server| 无|微服务统一配置中心|  
+|thoth-robot-ms|无|springcloud中的一个微服务,其中包含一个简单的增删改查demo|  
+|thoth-docs|无|相关文档，技术规范以及编码规范| 
 
 
 #### To Do List
@@ -16,7 +17,7 @@
 * 4.微服务之间的RPC通信，会有FeignClient和RestTemplate以及Grpc的整合。
 * 5.项目部署方案，安全，授权等通用模块的更新。
 * 6、项目中使用到的技术，包括es，kafaka，mongo，redis等集群模式的搭建及使用文档。
-* 
+
 
 
 ### Most import
