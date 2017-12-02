@@ -10,12 +10,13 @@
 |thoth-docs|无|机器人微服务，内部目前只实现了图灵机器人的调用| 
 |thoth-docs|无|相关文档，技术规范以及编码规范| 
 
+* 修改日志  
+
 |修改日志 | 修改人 | 修改日期|版本计划|
 |----|----|----        |---|
-|----|----|----        |---|
+|如下，v1.0|阿亮|20171202        |加入zuul功能|
 
-
-
+  - [v1.0](https://github.com/liangliang1259/springcloud-thoth/blob/v1.0/thoth-docs/update-log/2017-12-02.md)
 
 #### To Do List
 * 1.thoth基础组件的管理，后面会对pom中jar的版本管理做细粒度的切分和管理
