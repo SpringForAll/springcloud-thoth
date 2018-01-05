@@ -143,9 +143,12 @@ public class RobotServiceImpl implements RobotService {
 	@Override
 	public List<Robot> listAll(Robot robot) {
 		List<Robot> robots = robotMapper.listRobots(robot);
+		Robot robot1 = new Robot();
+		robot1.setName("哈哈哈哈");
 		if (robots == null){
 			robots = new ArrayList<Robot>();
 		}
+		robots.add(robot1);
 		return robots;
 	}
 
