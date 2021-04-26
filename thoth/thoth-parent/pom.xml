@@ -44,7 +44,7 @@
         <kafka-clients.version>0.10.0.1</kafka-clients.version>
         <hbase-client.version>1.2.0-cdh5.11.0</hbase-client.version>
         <java-uuid-generator.version>3.1.4</java-uuid-generator.version>
-        <commons-io.version>2.4</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <jwt.version>2.2.0</jwt.version>
         <oval.version>1.85</oval.version>
         <dbunit.version>2.5.3</dbunit.version>
